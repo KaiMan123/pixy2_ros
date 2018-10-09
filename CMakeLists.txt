@@ -54,7 +54,8 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
  add_message_files(
    FILES
-   pixy2Data.msg
+   pixy2lines.msg
+   pixy2blocks.msg
  )
 
 ## Generate services in the 'srv' folder

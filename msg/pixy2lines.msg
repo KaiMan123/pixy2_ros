@@ -1,0 +1,9 @@
+uint16 m_xa
+uint16 m_ya
+uint16 m_xb
+uint16 m_yb
+uint16 m_index
+uint16 m_flags
+uint16 i_index
+uint16 i_reserved
+uint16 i_angle
