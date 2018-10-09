@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 add_compile_options(-std=c++11)
-project(ros_pixy)
+project(pixy2_ros)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 
@@ -54,7 +54,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
  add_message_files(
    FILES
-   pixyData.msg
+   pixy2Data.msg
  )
 
 ## Generate services in the 'srv' folder

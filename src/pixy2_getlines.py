@@ -4,7 +4,7 @@ import rospy
 import pixy
 from ctypes import *
 from pixy import *
-from ros_pixy.msg import pixyData
+from pixy2_ros.msg import pixyData
 # pixy2 Python SWIG get line features example #
 
 print ("Pixy2 Python SWIG Example -- Get Line Features")

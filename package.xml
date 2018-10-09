@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>ros_pixy</name>
+  <name>pixy2_ros</name>
   <version>0.0.0</version>
   <description>The ros_pixy package</description>
 
