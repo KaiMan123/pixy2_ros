@@ -12,9 +12,12 @@ Before using the pixy2_ros, you have to install the pixy2.
 # Setting up the pixy2_ros
 After installation of pixy2, copy the following documents from **pixy2/build/python_demos/** to **pixy2_ros/src** and replace the one in `pixy2_ros/src`
 ```
+  _pixy.so
+```
+if it does nto work, plz also copy the following
+```
   pixy.i
   pixy.py
-  _pixy.so
   pixy_python_interface.cpp
   pixy_wrap.cxx
   setup.py
