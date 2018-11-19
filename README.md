@@ -10,7 +10,7 @@ Before using the pixy2_ros, you have to install the pixy2.
 ```
 
 # Setting up the pixy2_ros
-After installation of pixy2, copy the following documents from **pixy2/build/python_demos/** to **pixy2_ros/src** and replace the one in `pixy2_ros/src`
+1. After installation of pixy2, copy the following documents from **pixy2/build/python_demos/** to **pixy2_ros/src** and replace the one in `pixy2_ros/src`
 ```
   _pixy.so
 ```
@@ -22,7 +22,15 @@ if it does nto work, plz also copy the following
   pixy_wrap.cxx
   setup.py
 ```
-After replacing the documents, try the following and it should be workable.
+
+2. There is a "50-usb-scale.conf", use following to give premission for pixy2.
+```
+  sudo cp 50-usb-scale.conf /etc/udev/rules.d/
+  sudo udevadm control --reload
+  sudo udevadm trigger
+```
+
+3. After above steps, try the following and it should be workable.
 
 `$ rosrun pixy2_ros pixy2_getlines` and `$ rostopic echo /pixy2lines`
 
